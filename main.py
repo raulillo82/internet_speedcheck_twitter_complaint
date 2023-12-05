@@ -7,7 +7,7 @@ from auth import (twitter_consumer_key,
 import tweepy
 MIN_DL = 749.908 #Mbps
 MIN_UP = 673.175 #Mbps
-CMD = "./speedtest --ca-certificate=./cacert.pem -f json"
+CMD = "./speedtest --ca-certificate=./cacert.pem -f json --accept-license"
 PROVIDER = "@orange_es"
 
 class InternetTwitterBot():
